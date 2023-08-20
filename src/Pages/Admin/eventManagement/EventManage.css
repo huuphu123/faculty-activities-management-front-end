@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+#ADMIN-PAGE .bigContainer {
+    font-family: 'Mulish', sans-serif;
+}
+
+#ADMIN-PAGE h2 {
+    color: #00432D;
+    margin: 2rem 0 0 5.6rem;
+}
+
+#ADMIN-PAGE a {
+    color: black;
+}
+
+#ADMIN-PAGE .container {
+    /* margin: 3rem 6rem; */
+    background-color: #C1F4BE;
+    border-radius: 2rem;
+    padding: 0.8rem 1rem;
+    min-height: 40rem;
+}
+
+#ADMIN-PAGE table {
+    font-size: 0.9rem;
+    border-spacing: 0 0.8rem;
+    border-collapse: separate;
+}
+
+#ADMIN-PAGE tbody tr {
+    background-color: white;
+    border-radius: 0.7rem;
+    box-shadow: 1px 3px 3px #35584d65;
+}
+
+#ADMIN-PAGE thead {
+    font-size: 1rem;
+}
+
+#ADMIN-PAGE tbody th, #ADMIN-PAGE tbody td {
+    border: none;
+}
+
+#EVENT-MANAGE tbody th, #EVENT-MANAGE tbody td {
+    padding: 0.7rem 0.5rem;
+}
+
+#EVENT-MANAGE tbody td:nth-of-type(4) {
+    border-radius: 0 0.7rem 0.7rem 0;
+    background-color: #6EDE8A;
+    text-align: center;
+    font-weight: 500;
+}
+
+#ADMIN-PAGE tbody th {
+    border-radius: 0.7rem 0 0 0.7rem;
+}
+
+#EVENT-MANAGE .declined td:nth-of-type(4) {
+    background-color: #D00000;
+    color: #E0E0E0;
+}
+
+#EVENT-MANAGE tbody tr.declined {
+    background-color: rgba(255, 255, 255, 0.479);
+}
+

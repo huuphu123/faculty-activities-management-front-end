@@ -1,0 +1,136 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 20vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+  }
+  
+  .instructText{
+    padding-left: 2rem;
+    font-size: medium;
+  }
+  .instructText div{
+    font-weight: bold;;
+  }
+  .header {
+    background: #c3f3bb;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+
+    font-weight: bolder;
+  }
+
+  .inputfile {
+    width: 0.05px;
+    height: 0.05px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+  .uploadContainer{
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+  .uploadContainer label {
+    margin-bottom: 0.6rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: #00432D;
+    color: white;
+    border: 2px solid #00432D;
+    transition-duration: 100ms;
+
+  }
+  .uploadContainer label:hover {
+    background-color: white;
+    color: #00432D;  
+    transition-duration: 100ms;
+
+  }
+  .content {
+    padding: 1rem;
+    overflow: auto;
+    max-height: 300px;
+    display: grid;
+
+  }
+  
+  .actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    background: #c3f3bb;
+
+  }
+
+
+  .orText{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;   
+  }
+  .uploadText:hover{
+    text-decoration:underline ;
+    cursor:pointer;
+
+  }
+  .dataName{
+    margin: auto;
+  }
+  .button1{
+    padding: 0.2rem 0.4rem;
+    margin: 0.2rem;
+    background-color: #c3f3bb;
+    font-weight: bold;
+    transition-duration: 100ms;
+    color: #00432D;  
+    border-radius: 15%;
+    border-color: #c3f3bb;
+    border-style: solid;
+  }
+  .button1:hover{
+    background-color: #6EDE8A;
+    border-color: #6EDE8A;
+    transition-duration: 100ms;
+  }
+  .button2{
+    padding: 0.2rem 0.4rem;
+    margin: 0.2rem;
+    background-color: #fdfffd;
+    font-weight: bold;
+    transition-duration: 100ms;
+    color: #00432D;  
+    border-radius: 15%;
+    border-color: #c3f3bb;
+    border-style: solid;
+
+  }
+  .button2:hover{
+    background-color: #c3f3bb;
+    transition-duration: 100ms;
+  }
+  @media (min-width: 768px) {
+    .modal {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }

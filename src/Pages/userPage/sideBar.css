@@ -1,0 +1,127 @@
+
+/*------------- SIDE-BAR + CONTAINER-------------*/
+/* -------------container---------------- */
+.page {
+    height: 85vh;
+    margin: 0;
+    margin-top: 3rem;
+}
+.container.fr {
+    background-color: white;
+    border: 2px solid #7DBE8D;
+    border-radius: 1.5rem;
+    height: 24rem;
+    width: 42rem;
+    font-size: 15px;
+    color: #00432D;
+    padding: 1.5rem 2rem 1rem 1rem;
+}
+
+/* -------------side bar---------------- */
+
+.ava-wrapper {
+    width: 5rem;
+    height: 5rem;
+    background-color: #00432D;
+    margin-bottom: 0.5rem;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+.side-bar {
+    border: 2px solid #DFDFDF;
+    border-radius: 1rem;
+    margin: 1rem 2rem 0rem;
+    padding: 0 0 3rem 0;
+}
+
+.nav-link {
+    border-radius: 0.9rem;
+    color: #00432D;
+    width: 7.75rem;
+    height: 2.3rem;
+    transition: background-color 0.075s ease-in-out 0.075s;
+}
+
+ul li .pw {
+    padding: 0.5rem 0;
+}
+
+.side-bar.nav-link:hover {
+    color: #00432D;
+    background-color: #bcc9c4;
+}
+
+.side-bar ul li .focused {
+    color: white;
+    background-color: #3ED163;
+}
+
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .page {
+        margin-top: 4rem;
+    }
+
+    .container.fr {
+        height: 28rem;
+        width: 42rem;
+    }
+
+    .ava-wrapper {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .side-bar {
+        margin: 1rem 0.5rem 0 0.5rem;
+    }
+    
+    .nav-link {
+        width: 7.95rem;
+        transition: background-color 0.075s ease-in-out 0.075s;
+    }
+}
+
+@media (max-width: 576px) {
+    .page {
+        margin: 3rem 0 3rem 0;
+    }
+
+    .container.fr {
+        background: rgba(255, 255, 255, 0);
+        border: none;
+        width: auto;
+        font-size: 12px;
+    }
+
+    .ava-wrapper {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+    }
+
+    .side-bar {
+        margin: 1rem 0.9rem 0 0.9rem;
+        border: none;
+        border-radius: 0;
+    }
+    
+    .side-bar .nav-link {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        font-size: 0;
+        background-color: #9abda2;
+    }
+
+    div .navbar.side-bar {
+        display: flex;
+        justify-content: center;
+    }
+}

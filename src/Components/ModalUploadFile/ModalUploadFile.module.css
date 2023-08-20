@@ -1,0 +1,49 @@
+.labelInputFile {
+    color: #00432D;
+    display: block;
+    font-size: large;
+}
+
+.inputFileName {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    width: 25rem;
+}
+
+.chooseFile {
+    display: none;
+}
+
+.buttonCustom {
+    color: #00432D;  
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.buttonAddFile {
+    background-color: #6EDE8A;
+    border: none;
+    padding: 0.4rem 0.6rem;
+    float: left;
+    margin-top: 8px;
+    margin-left: 16px;
+    border-radius: 0.7rem;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+    color: #00432D;
+    font-size: large;
+}
+
+.lableFileName {
+    color: #00432D;
+    display: block;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+
+.buttonAddFile:hover {
+    background-color: #00432D;
+    color: #fff;
+}

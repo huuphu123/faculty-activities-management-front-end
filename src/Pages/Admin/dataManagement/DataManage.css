@@ -1,0 +1,34 @@
+#DATA-MANAGE tbody td:nth-of-type(3) {
+    border-radius: 0 0.7rem 0.7rem 0;
+}
+
+#DATA-MANAGE .group-bottom {
+    text-align: center;
+}
+
+#DATA-MANAGE input,label{
+    margin-left: 1rem;
+} 
+
+#DATA-MANAGE .inputAddFile {
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+} 
+
+#DATA-MANAGE .labelAddFile {
+    cursor: pointer;
+} 
+
+#DATA-MANAGE .labelAddFile:hover {
+    opacity: 80%;
+} 
+
+
+
+#DATA-MANAGE tbody th, #DATA-MANAGE tbody td {
+    padding: 0.5rem 0.5rem;
+}
+
+

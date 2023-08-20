@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.row-container{
+    width: 100%;
+    height: 100%;
+    font-family: 'Mulish', sans-serif;
+    color: #00432D;
+    background-image: url('../../../public/homeBG.png');
+    background-repeat: no-repeat;
+     background-size: contain; 
+    margin:0;
+    /* background-size: 100% 100%; */
+}
+@keyframes animate-pop {
+    0% {
+      opacity: 0;
+      /* transform: scale(0.5, 0.5); */
+    }
+    100% {
+      opacity: 1;
+      /* transform: scale(1, 1); */
+    }
+  }
+.container-col-7{
+    padding-left: 4rem;
+    padding-top: 3.3rem;
+    padding-bottom: 1rem;
+    animation-name: animate-pop;
+    animation-duration: 2s;
+}
+.container-col-7 div {
+    font-size: 2.7rem;
+    font-weight: 725;
+    line-height: 3.3rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+.container-col-7 p {
+    font-style: italic;
+}
+.container-col-4{
+    padding-top: 3.4rem;
+    padding-bottom: 1rem;
+    padding-left: 3.3rem;
+    margin-left: 2rem;
+}
+.form-name{
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 750;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.form-event{
+    font-size: 1.2rem;
+}
+.form-event div label{
+    font-weight: bold;
+}
+.long-input{
+    border-radius: 38.5px;
+    background-color: #F7FFF6;
+    border: 2px solid #7DBE8D;
+    padding-left: 1rem!important;
+    margin-left: 0.4rem;
+}
+.short-input{
+    font-size: 1.1rem;
+    border-radius: 38.5px;
+    background-color: #F7FFF6;
+    border: 2px solid #7DBE8D;
+    padding: 0.3rem 0.3rem 0.3rem 0.5rem!important;
+}
+.time-input{
+    width: 80%;
+}
+.date-input{
+    width: 110%;
+
+}
+.btn-event{
+    left: 65%;
+
+}
+
+.fileContainer{
+    padding-top: 0.8rem;
+    padding-left: 0.3rem;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+}
+.fileContainer:hover{
+    color: #7DBE8D;
+    cursor:pointer;
+
+}
+
+
+@media screen and (max-width:576px) {
+    .long-input{
+        margin: 3px;
+    }
+    .short-input{
+        margin: 3px;
+
+    }   
+
+    /* some other style */  
+}
+
+@media screen and (max-width:766px) {
+    .long-input{
+        width:90%;
+    }
+    .container-col-7{
+        padding-bottom: 0rem;
+    }
+
+    .container-col-4{
+        margin-left: 0;
+    }
+    /* some other style */  
+}
+
+.error{
+    color: red;
+    font-size: 1rem;
+    height: 1rem;
+}
+.success{
+    color: green;
+    font-size: 1rem;
+    height: 1rem;
+}

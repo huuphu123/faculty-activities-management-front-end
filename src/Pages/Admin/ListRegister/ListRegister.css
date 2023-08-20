@@ -1,0 +1,29 @@
+#LIST-REGISTER tbody td:nth-of-type(4) {
+    border-radius: 0 0.7rem 0.7rem 0;
+}
+
+#LIST-REGISTER .accept, #LIST-REGISTER .decline{
+    border-radius: 1rem;
+    height: 2rem;
+    padding: 0.2rem 1rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+#LIST-REGISTER tbody th, #LIST-REGISTER tbody td {
+    padding: 0.4rem 0.5rem;
+}
+
+.infoRow-enter {
+    opacity: 0;
+}
+
+.infoRow-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.infoRow-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}

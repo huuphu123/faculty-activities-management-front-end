@@ -1,0 +1,235 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Check_in_out {
+    width: 100%;
+    background: url('../../../public/Event-job-fair.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%;  */
+    margin:0;
+}
+
+.title{
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    animation-name: animate-pop;
+    animation-duration: 2s;
+}
+
+.title div {
+    color: #00432D;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 0rem;
+}
+
+.container_check_in_out {
+    width: 50%;
+    min-height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border: 0.15rem solid #6ede8a;
+    border-radius: 1rem;
+    background-color: #fff;
+    position: relative;
+    overflow: auto;
+}
+
+#tab-tab-Check-in, #tab-tab-Check-out {
+    font-weight: 505;
+    color: #00432D;
+}
+
+.nav-tabs {
+    width: 100%;
+    background-color: #6ede8a;
+    border-width: 0rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.container_check_in_out .nav-tabs .nav-item {
+    padding-right: 0.1rem;
+}
+
+.container_check_in_out .nav-tabs .nav-link {
+    margin-bottom: 0rem;
+    background-color: #c1f4be!important;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-width: 0rem;
+}
+
+.container_check_in_out .nav-tabs .nav-link.active {
+    background-color: white!important;
+}
+
+.tab-content {
+    height: 80%;
+    margin-top: 2rem;
+}
+
+.form_check_in, .form_check_out {
+    width: 80%;
+    height: 100%;
+    padding: 0.5rem 2rem 1rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c1f4be;
+    border-radius: 1rem;
+}
+
+.text_check_in, .text_check_out {
+    font-size: 1.2rem;
+    font-weight: 505;
+    color: #00432D;
+    padding-bottom: 0.3rem;
+}
+
+.input_check_in, .input_check_out {
+    width: 75%;
+    line-height: 2rem;
+    color: #707070;
+    background-color: #F7FFF6;
+    border: 1px solid #7DBE8D;
+    border-radius: 1rem;
+    padding-left: 0.8rem;
+}
+
+.button_check_in, .input_check_in {
+    display: inline-block;
+}
+
+.button_check_out, .input_check_out {
+    display: inline-block;
+}
+
+.button_check_in, .button_check_out {
+    width: 20%;
+}
+
+.btn_submit_check_in, .btn_submit_check_out {
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
+
+.btn_submit_check_in, .btn_submit_check_out {
+    background-color: #6ede8a;
+    line-height: 1.5rem;
+    border-radius: 0.8rem;
+}
+
+
+.list_check_in, .list_check_out{
+    height: 25rem;
+    width: 80%;
+    padding: 0.5rem 2rem 1rem 0rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    overflow-y: auto;
+}
+
+.item_check_in, .item_check_out{
+    width: 50%;
+    background-clip: border-box;
+    background-color: #c1f4be;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    border-left: 2.5rem solid #7dbe8d;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.name_check_in, .name_check_out {
+    color: #045a3d;
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+.confirm_check_in, .confirm_check_out {
+    color: gray;
+    font-weight: 450;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:900px) {
+    .title {
+        padding-left: 0;
+    }
+    .title div{
+        text-align: center;
+    }
+    .container_check_in_out {
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+    #tab-tab-Check-in, #tab-tab-Check-out {
+        width: 100%;
+    }
+    .form_check-in, .form_check-out {
+        height: 30%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.2rem;
+        padding-top: 0.2rem;
+    }
+    .list_check_in, .list_check_out {
+        overflow-y: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .input_check_in, .input_check_out {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-right: auto;
+        margin-left: auto
+    }
+    .text_check_in, .text_check_out {
+        text-align: center;
+    }
+    
+    .button_check_in, .button_check_out {
+        width: 100%;
+    }
+    .btn_submit_check_in, .btn_submit_check_out {
+        margin-right: auto;
+    }
+    .item_check_in, .item_check_out {
+        width: 80%;
+    }
+    .name_check_in, .name_check_out {
+        font-size: 0.8rem;
+    }
+    .confirm_check_in, .confirm_check_out {
+        font-size: 0.5rem
+    }
+}

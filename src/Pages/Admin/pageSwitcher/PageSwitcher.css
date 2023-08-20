@@ -1,0 +1,33 @@
+/* --------------------- SWITCHER ----------------------*/
+
+#SWITCHER #btnName {
+    width: 12.2rem;
+    border-radius: 1.2rem 0 0 1.2rem;
+}
+
+#SWITCHER {
+    background-color: #ffc107;
+    border-radius: 1.2rem;
+    margin: 3vh 0 0 72vw;
+}
+
+#SWITCHER .dropdown-menu {
+    background-color: #fff;
+    width: 14.2rem;
+    border: none;
+}
+
+
+
+#SWITCHER .btn.btn-light.dropdown-toggle {
+    border-radius: 1rem;
+    height: 2rem;
+    width: 2rem;
+    margin: 3px 3px 0 0;
+}
+
+@media (max-width: 768px) {
+    #SWITCHER {
+        margin: 3vh 0 0 54vw;
+    }
+}

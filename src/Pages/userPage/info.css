@@ -1,0 +1,33 @@
+/*----------- USED FOR PASSWORD_CHANGE AND INFO -----------*/
+#INFO-PASS input, input[type=text], input[type=email], 
+input[type=date], input[type=password] {
+   color: #707070;
+   background-color: #F7FFF6;
+   border: 1px solid #7DBE8D;
+   border-radius: 1rem;
+   padding-left: 0.8rem;
+}
+
+#INFO-PASS .form-group input {
+    margin-bottom: 0.5rem;
+}
+
+#INFO-PASS button[type=submit] {
+    border-radius: 0.8rem;
+    width: 3rem;
+    margin: 0.3rem;
+}
+
+#INFO-PASS .form-group label {
+    margin-bottom: 0.3rem;
+    color: #00432D;
+}
+
+@media (max-width: 576px) {
+    #INFO-PASS input {
+        font-size: 12px;
+    }
+}
+
+
+

@@ -1,0 +1,44 @@
+
+.inputRow{
+    padding: 0.4rem;
+    
+}
+
+
+.short-input{
+    font-size: 1.1rem;
+    border-radius: 38.5px;
+    background-color: #F7FFF6;
+    border: 1px solid #7DBE8D;
+    padding: 0.3rem 0.3rem 0.3rem 0.5rem!important;
+}
+.time-input{
+    width: 80%;
+}
+.date-input{
+    width: 110%;
+
+}
+
+@media screen and (max-width:766px) {
+
+    .time-input{
+        width: 40%;
+    }
+    .date-input{
+        width: 60%;
+    
+    }
+
+    /* some other style */  
+}
+@media screen and (max-width:576px) {
+
+    .short-input{
+        margin: 3px;
+        width: 50%;
+
+    }   
+
+    /* some other style */  
+}

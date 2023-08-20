@@ -1,0 +1,52 @@
+[
+    {
+        "FullName": "Tieu Khong Cay",
+        "DoB": "2002-01-19",
+        "StudentID": "2010000",
+        "Email": "ahihi@hcmut.edu.vn",
+        "PhoneNum": "0901073299",
+        "Password": "ahjdongok",
+        "events": [
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "inc"
+            },
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "inc"
+            },
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "inc"
+            },
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "hpn"
+            },
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "hpn"
+            },
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "hpn"
+            },
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "end"
+            },
+            {
+                "eventName": "Mua he xanh CSE 2022",
+                "time": "28/06/2022",
+                "st": "end"
+            }
+        ]
+    }
+]

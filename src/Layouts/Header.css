@@ -1,0 +1,109 @@
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #6EDE8A;
+    padding: 0;
+}
+
+#mainNavbar img {
+    margin: 0;
+}
+
+#mainNavbar .navbar-brand {
+    color: #00432D;
+    font-size: 0.75rem;
+    margin: 0 8px 0 8px;
+}
+
+.navbar-brand .brand-name {
+    margin: 3px 0 0 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+#mainNavbar li.nav-item {
+    display: inline;
+}
+
+#mainNavbar .nav-link {
+    font-size: 1rem;
+    display: inline;
+    margin: 0 0.2rem 0 0.2rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.9rem;
+}
+
+#mainNavbar .nav-link.admin {
+    color: #007714;
+    font-weight: 700;
+}
+
+#mainNavbar .nav-link:hover {
+    background-color:#5dc475;
+    color: white;
+}
+
+#mainNavbar .nav-link.noti:hover {
+    background-color: azure;
+}
+
+#mainNavbar a.nav-link.login, a.nav-link.signup {
+    margin-right: 1rem;
+}
+
+#mainNavbar button.btn {
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-color: #6EDE8A;
+    color: #00432D;
+    border-color: #6EDE8A;
+    padding: 0.1rem 0.8rem;
+    margin: 0 1rem 0 0.3rem;
+}
+
+#mainNavbar button.btn:hover {
+    background-color: #5dc475;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #mainNavbar a.nav-link.login, #mainNavbar a.nav-link.signup {
+    display: block;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    }
+
+    #mainNavbar ul.logsig {
+        display: block;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #mainNavbar div {
+        font-size: 0.5rem;
+    }
+
+    #mainNavbar img.logo {
+        width: 35px;
+        height: 32px;
+    }
+
+    #mainNavbar a.nav-link.admin {
+        font-size: 0.8rem;
+    }
+
+    #mainNavbar a.nav-link {
+        background-color: none !important;
+    }
+    
+}
+
